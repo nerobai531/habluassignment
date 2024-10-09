@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #FFFFFF; */
+    background-color: gainsboro;
+    /* padding: 30px 0px; */
+    height: 80px;
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav-links ul li{
+    list-style: none; 
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+.nav-buttons{
+    display:flex;
+    gap: 10px;
+    
+}
+.nav-buttons button {
+    padding: 6px 16px;
+    /* margin: 0 10px; */
+    border-radius: 30px;
+    border: none;
+    background-color: #F1F1F1;
+    font-family:"Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.get-btn {
+    background-color: #000000 !important;
+    color: #F1F1F1;
+    border: none;
+}
+
+.hero{
+    /* width: 100%; */
+    /* height: 760px; */
+}
+
+.hero-container {
+    position: relative;
+}
+
+
+.hero-image{
+    object-fit: cover;
+     width: 100%;
+    height: 100%; 
+   
+}
+
+
+.select-form h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    /* padding: 63px 0; */
+    margin-top: 47px;
+    margin-bottom: 68px;
+}
+
+.select-form {
+    background-color: #ffffff;
+    width: 940px;
+    height: 340px;
+    margin: 0 auto;
+    position: absolute;
+    top: 265px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 25px;
+}
+
+.select-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+select.selective {
+    padding: 5px 45px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    /* text-align: center; */
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+input {
+    border: none;
+}
+
+input.how-much {
+    width: 67%;
+    margin-left: 3.2rem;
+    outline: none;
+    padding: 5px 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: #ECECEC;
+    font-weight: 500;
+}
+
+input.offer {
+    padding: 5px 52px;
+    width: fit-content;
+    border-radius: 30px;
+    background-color: #00EBC7;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.buy-sell-section {
+    background-color: #FDE24F;
+    /* height: 360px; */
+    /* padding: 135px; */
+    /* border-top: 1px solid #FDE24F; */
+    margin-top: -4px;
+    width: 100%;
+}
+
+.crypto-icons{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buysell-text h2 {
+    /* padding: 72px 0; */
+    /* text-align: center; */
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.buysell-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.buysell-text span {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    font-style: italic;
+    color: #000000;
+}
+
+.crypto-icons {
+    padding-bottom: 35px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.feature-one {
+    width: 33%;
+    text-align: center;
+}
+
+.feature-two {
+    width: 33%;
+    text-align: center;
+}
+
+.feature-three {
+    width: 33%;
+    text-align: center;
+}
+
+.feature-section h2 {
+    padding: 51px;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.feature-container h4 {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.feature-container p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #535353;
+    padding: 10px 100px;
+}
+
+.feature-container u {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.feature-container .horizontal-one{
+    
+        width: 120px;
+        height: 1px;
+        position: absolute;
+        top: 95px;
+        bottom: 0;
+        left: 448px;
+        right: 0;
+        background-color: #000000;
+    
+}
+
+.feature-container .horizontal-two {
+    width: 120px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 95px;
+    left: 942px;
+    right: 0;
+    bottom: 0;
+}
+
+.feature-btn {
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.feature-btn button{
+    padding: 11px 28px 11px 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.offer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+    position: relative;
+    
+
+    & hr {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        height: 1px;
+    }
+}
+
+.buy-section, .sell-section {
+    width: 42%;
+    /* margin-left: 100px; */
+    padding: 0 100px;
+
+    & h3{
+            margin-left: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+        
+    }
+}
+
+
+.zelle, .paypal, .wire {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 25px;
+    gap: 31px;
+    border: 1px solid #000000;
+    padding: 5px 13px;
+    border-radius: 15px;
+
+    & img{
+        width: 50px;
+    }
+
+    & span {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+    }
+}
+
+.buy-btn,  .sell-btn{
+    text-align: center;
+
+    & button{
+        padding: 11px 28px 11px 28px;
+        background-color: #000000;
+        color: #F1F1F1;
+        border-radius: 15px;
+        font-family: "Inter",sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+}
+
+section.signup-section{
+    background-color: #CFBAFF;
+}
+
+.signup-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    padding: 87px 164px;
+}
+
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 72px 0;
+
+    & button{
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        background-color: #000000;
+        color: #F1F1F1;
+        font-family: "Inter",sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        border: none;
+    }
+}
